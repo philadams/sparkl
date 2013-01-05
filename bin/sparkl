@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# sparkl
+# https://github.com/philadams/sparkl
+#
+# Generates sparklines for a set of data.
+#
+# Examples:
+#
+#   spark 1 5 22 13 53
+#   # => ▁▁▃▂▇
+#
+#   spark 0 30 55 80 33 150
+#   # => ▁▂▃▅▂▇
+#
+#   spark -h
+#   # => Prints the spark help text.
+
+#local ticks=(▁ ▂ ▃ ▄ ▅ ▆ ▇ █)
+
+spark = u'▁▂▃▅▂▇'
+print('sparkl: sparklines like %s in your command lines. coming soon...' % spark)
