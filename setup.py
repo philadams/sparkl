@@ -1,15 +1,18 @@
 from distutils.core import setup
 
+
+with open('README.txt') as f:
+    readme = f.read()
+
 setup(
     name='sparkl',
     version='0.0.1',
     author='Phil Adams',
     author_email='phil@philadams.net',
-    packages=['sparkl', 'sparkl.test'],
-    scripts=['bin/sparkl'],
     url='http://github.com/philadams/sparkl',
     license='LICENSE.txt',
     description='sparklines. on the command line.',
-    long_description=open('README.txt').read(),
-    install_requires=[],
+    long_description=readme,
+    packages=['sparkl'],
+    scripts=['bin/sparkl'],
 )
