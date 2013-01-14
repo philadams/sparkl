@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 try:  # when installed
     import sparkl
@@ -8,5 +9,4 @@ except ImportError:  # for development
     sys.path.insert(0, os.path.abspath('..'))
     import sparkl
 
-print('coming oh so very soon...')
-print('oh, and %s!' % sparkl.hello_world())
+sparkl.sparkl()
