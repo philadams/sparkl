@@ -48,6 +48,8 @@ cool usage ideas
 
 There's a [list of great command line sparkline usage](https://github.com/holman/spark/wiki/Wicked-Cool-Usage). And, you could always put it in your prompt...
 
+    sparkl (master√ history: ▂▅▇▂) >
+
 future?
 -------
 
