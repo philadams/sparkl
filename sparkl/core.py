@@ -49,9 +49,9 @@ def sparkl():
         data = [line.strip() for line in fileinput.input()]
 
     if len(data[0].split(args.delimiter)) > 1:
-        data = [int(x.strip()) for x in data[0].split(args.delimiter)]
+        data = [int(round(float(x.strip()))) for x in data[0].split(args.delimiter)]
     else:
-        data = [int(x.strip()) for x in data if x.strip() is not '']
+        data = [int(round(float(x.strip()))) for x in data if x.strip() is not '']
 
     # TODO: zero-min or data-min?
 
