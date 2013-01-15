@@ -6,7 +6,7 @@ with open('README.txt') as f:
 
 setup(
     name='sparkl',
-    version='0.0.1',
+    version='0.0.2',
     author='Phil Adams',
     author_email='phil@philadams.net',
     url='http://github.com/philadams/sparkl',

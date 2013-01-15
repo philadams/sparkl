@@ -55,5 +55,6 @@ future?
 
 - have switch for allowing/forcing 0-based lines
 - make logger use sparkl as module parameter
+- consider how to handle errors better - full trace might be good?
 - allow sparkline to be turned 90 degrees clockwise into horizontal bar
   chart?
